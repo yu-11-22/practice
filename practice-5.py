@@ -18,11 +18,3 @@ else:
             print(x, z, y)
     else:
         print(x, y, z)
-
-# 範例
-l = []
-for i in range(3):
-    x = int(input("integer:\n"))
-    l.append(x)     # append把串列當成一個元素放進去
-l.sort()            # sort會對文字做排序(改成由大到小,在列表中加入reverse=True)
-print(l)
